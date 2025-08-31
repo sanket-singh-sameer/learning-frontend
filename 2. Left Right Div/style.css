@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    display: flex;
+    height: 100%;
+}
+
+#left {
+    background-image: url(./assets/img2.avif);
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+}
+
+
+#right {
+    background-image: url(./assets/img3.avif);
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+}
+
+#overlay1 {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.548);
+}
+
+#overlay2 {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#container1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#container2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+h1{
+    letter-spacing: 2rem;
+    padding-bottom: 2rem;
+}
+p{
+    letter-spacing: 0.3rem;
+    font-size: 1.2rem;
+    padding-bottom: 1.5rem;
+    width: 50rem;
+}
+
+button{
+    height:3rem;
+    width:15rem;
+    background: none;
+    color: white;
+    border: 1px solid white;
+}
+
+button:hover{
+    background: white;
+    color: black;
+}

@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-image: url(assets/main_bg.jpg);
+    background-size: cover;
+}
+
+#overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+/* h1{
+    color: white;
+    text-align: center;
+    padding-top: 20%;
+    font-size: 4em;
+} */
+#overlay h1 {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "Anurati", "sans-serif";
+    font-size: 2.5rem;
+    font-weight: 500;
+    letter-spacing: 50px;
+}
+
+#line {
+    position: absolute;
+    top: 42%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    width: 50rem;
+    height: 2px;
+    background-color: white;
+
+}
+
+#description {
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0.4rem;
+    width: 75rem;
+    text-align: center;
+}
+
+#button {
+    position: absolute;
+    top: 63%;
+    left: 48%;
+    width: 20rem;
+    height: 4rem;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: "Anurati", "sans-serif";
+    letter-spacing: 0.5rem;
+    color: white;
+    background: none;
+    border: 1px solid white;
+    transform: translate(-50%, -50%);
+}
+
+#button:hover {
+    color: black;
+    background-color: white;
+    /* border: 1px solid black; */
+}

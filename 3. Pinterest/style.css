@@ -1,0 +1,739 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    position: relative;
+    height: 100%;
+    background-color: #dadada;
+}
+
+#navbar {
+    position: absolute;
+    height: 10%;
+    width: 100%;
+}
+
+#bottom-left-main {
+    position: absolute;
+    height: 35%;
+    width: 35%;
+    bottom: 0;
+}
+
+#bottom-right-main {
+    position: absolute;
+    height: 30%;
+    width: 35%;
+    bottom: 0;
+    right: 0;
+}
+
+#navbar-left-wala {
+    position: absolute;
+    height: 100%;
+    width: 30%;
+}
+
+#navbar-right-wala {
+    position: absolute;
+    height: 100%;
+    width: 30%;
+    right: 0;
+}
+
+#right-wale-ka-1 {
+    position: absolute;
+    height: 100%;
+    width: 30%;
+    left: -5%;
+    top: 0;
+    background-image: url(./assets/wifi-nobg.png);
+    background-size: 75%;
+    background-position: center;
+}
+
+#right-wale-ka-2 {
+    position: absolute;
+    height: 80%;
+    width: 35%;
+    right: 0;
+    background-color: black;
+}
+
+#navbar-line {
+    position: absolute;
+    height: 2%;
+    width: 100%;
+    bottom: 0;
+    background-color: black;
+}
+
+#navbar-button-1 {
+    position: absolute;
+    height: 50%;
+    width: 25%;
+    top: 25%;
+    left: 5%;
+    border: 2px solid black;
+    background: none;
+    color: black;
+    font-weight: 700;
+}
+
+#navbar-button-1:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+#navbar-button-2:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+#navbar-button-3:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+#navbar-button-2 {
+    position: absolute;
+    height: 50%;
+    width: 25%;
+    top: 25%;
+    left: 35%;
+    border: 2px solid black;
+    background: none;
+    color: black;
+    font-weight: 700;
+}
+
+#navbar-button-3 {
+    position: absolute;
+    height: 50%;
+    width: 25%;
+    top: 25%;
+    left: 65%;
+    border: 2px solid black;
+    background: none;
+    color: black;
+    font-weight: 700;
+}
+
+#navbar-icon-container i {
+    position: absolute;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+}
+
+#navbar-icon-1 i {
+    position: absolute;
+    height: 50%;
+    width: 20%;
+    top: 35%;
+    right: 60%;
+}
+
+#navbar-icon-2 i {
+    position: absolute;
+    height: 50%;
+    width: 20%;
+    top: 35%;
+    right: 35%;
+}
+
+#navbar-icon-3 i {
+    position: absolute;
+    height: 50%;
+    width: 20%;
+    top: 35%;
+    right: 5%;
+}
+
+
+#below-navbar-button-1 {
+    position: absolute;
+    top: 10.5%;
+    height: 13%;
+    left: 0.5%;
+    width: 20%;
+}
+
+#below-navbar-button-2 {
+    position: absolute;
+    top: 25%;
+    left: 0.5%;
+    height: 13%;
+    width: 2%;
+}
+
+#go-to-catalog {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    height: 200px;
+    width: 300px;
+}
+
+#br-element-1 {
+    position: absolute;
+    height: 150px;
+    width: 200px;
+    top: 4%;
+    right: 50%;
+    border: 2px solid black;
+    border-radius: 16px;
+}
+
+#br-element-2 {
+    position: absolute;
+    height: 150px;
+    width: 200px;
+    top: 4%;
+    right: 5%;
+    background-image: url(./assets/bottom-right.png);
+    border-radius: 16px;
+    background-size: cover;
+}
+
+#br-element-2-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+#br-line-below {
+    position: absolute;
+    width: 80%;
+    height: 7px;
+    top: 90%;
+    left: 10%;
+    border-radius: 4px;
+    background-color: #dadada;
+}
+
+#br-line-above {
+    position: absolute;
+    width: 40%;
+    height: 7px;
+    top: 90%;
+    left: 10%;
+    border-radius: 4px;
+    background-color: black;
+}
+
+#arrows-bottom-right {
+    top: 10px;
+    left: 23px;
+    font-size: 30px;
+    position: absolute;
+    height: 100%;
+    background: none;
+}
+
+#br-something-1 {
+    position: absolute;
+    font-size: large;
+    font-weight: 700;
+    top: 30%;
+    left: 10%;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 100%;
+}
+
+#br-something-2 {
+    position: absolute;
+    font-size: large;
+    font-weight: 700;
+    top: 50%;
+    left: 10%;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 100%;
+}
+
+#br-something-3 {
+    position: absolute;
+    font-size: large;
+    font-weight: 700;
+    top: 70%;
+    left: 10%;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 100%;
+}
+
+#br-something-text-1 {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    font-size: large;
+    font-weight: 700;
+}
+
+#br-something-text-2 {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    font-size: large;
+    font-weight: 700;
+}
+
+#br-something-text-3 {
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    font-size: large;
+    font-weight: 700;
+}
+
+#br-mini-bottom-design {
+    position: absolute;
+    height: 20px;
+    width: 50px;
+    bottom: 8px;
+    right: 8px;
+    border: 2px solid black;
+    border-radius: 16px;
+}
+
+#bn-image-part {
+    position: absolute;
+    top: -10%;
+    margin: 8px;
+    height: 120%;
+    width: 35%;
+    border-radius: 16px;
+    background-image: url(./assets/top-left.png);
+    background-size: cover;
+
+}
+
+#bn-image-part-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+#bn-text-part {
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    color: black;
+    font-size: large;
+    font-weight: 900;
+    text-align: center;
+}
+
+#bn-arrow-part {
+    position: absolute;
+    right: 10%;
+    height: 112px;
+    width: 112px;
+    background-color: black;
+    border-radius: 100%;
+}
+
+#bn-arrow-part i {
+    position: absolute;
+    color: white;
+    font-size: xx-large;
+    top: 35%;
+    left: 40%;
+    transform: rotate(220deg);
+}
+
+#darkest-circle {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 16px;
+    width: 16px;
+    top: 10%;
+    left: 30%;
+    border-radius: 100%;
+}
+
+#darker-circle {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.65);
+    height: 16px;
+    width: 16px;
+    top: 35%;
+    left: 30%;
+    border-radius: 100%;
+}
+
+#dark-circle {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 16px;
+    width: 16px;
+    top: 60%;
+    left: 30%;
+    border-radius: 100%;
+}
+
+#circle {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.15);
+    height: 16px;
+    width: 16px;
+    top: 85%;
+    left: 30%;
+    border-radius: 100%;
+}
+
+#main-image {
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    height: 100%;
+    width: 30%;
+    background-image: url(./assets/main.png);
+    background-size: cover;
+}
+
+#go-to-catalog-para {
+    position: absolute;
+    top: 10%;
+    right: 20%;
+    height: 100%;
+    width: 25%;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+#go-to-catalog i {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    font-size: 24px;
+}
+
+#go-to-catalog-line-1 {
+    position: absolute;
+    height: 50%;
+    width: 0.5%;
+    top: 15%;
+    left: 15%;
+    background: linear-gradient(to top, rgb(255, 255, 255), rgb(0, 0, 0));
+}
+
+#go-to-catalog-line-2 {
+    position: absolute;
+    height: 1%;
+    width: 40%;
+    top: 15%;
+    left: 15%;
+    background: linear-gradient(to right, black, white);
+}
+
+#mini-circle-1 {
+    position: absolute;
+    top: 14%;
+    left: 58%;
+    height: 5px;
+    width: 5px;
+    border-radius: 100%;
+    background-color: black;
+}
+
+#barcode {
+    position: absolute;
+    top: -20%;
+    height: 30%;
+    width: 25%;
+    background-image: url(./assets/barcode-nobg.png);
+    background-size: cover;
+}
+
+#bl-text-1 {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    width: 100%;
+    font-size: 32px;
+    font-weight: 200;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+#bl-line {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    height: 5px;
+    width: 90%;
+    background: linear-gradient(to right, gray, white);
+    border-radius: 16px;
+}
+
+#bl-text-2 {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+#bl-button {
+    position: absolute;
+    background-color: black;
+    color: white;
+    top: 70%;
+    font-weight: 700;
+    left: 30%;
+    border-radius: 16px;
+    height: 32px;
+    width: 160px;
+}
+
+#bl-button:hover {
+    background-color: white;
+    top: 69%;
+    left: 29%;
+    color: black;
+    cursor: pointer;
+    height: 36px;
+    width: 168px;
+}
+
+/* #shadow-of-main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 80px;
+    width: 160px;
+    background: radial-gradient(circle,black, white);
+    } */
+
+#text-100 {
+    position: absolute;
+    top: 10%;
+    right: 30%;
+    font-weight: 700;
+}
+
+#text-300 {
+    position: absolute;
+    top: 10%;
+    right: 15%;
+    font-weight: 700;
+}
+
+#text-top-right-1 {
+    position: absolute;
+    font-size: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    top: 10.5%;
+    left: 70.5%;
+}
+
+#text-top-right-2 {
+    position: absolute;
+    font-size: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    top: 10.5%;
+    left: 85.5%;
+}
+
+#text-top-right-3 {
+    position: absolute;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 200px;
+    text-align: center;
+    font-weight: 700;
+    top: 15%;
+    left: 80%;
+}
+
+#sizes-part {
+    position: absolute;
+    height: 250px;
+    width: 100px;
+    top: 35%;
+    right: 1%;
+    text-align: center;
+}
+
+#size-s {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 0%;
+    left: 40%;
+    border: 2px solid black;
+    height: 24px;
+    width: 24px;
+    font-weight: 700;
+    border-radius: 100%;
+    text-align: center;
+}
+
+#size-m {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 12%;
+    left: 40%;
+    border: 2px solid black;
+    height: 24px;
+    width: 24px;
+    font-weight: 700;
+    border-radius: 100%;
+    text-align: center;
+}
+
+#size-l {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 24%;
+    left: 40%;
+    border: 2px solid black;
+    height: 24px;
+    width: 24px;
+    font-weight: 700;
+    border-radius: 100%;
+    text-align: center;
+}
+
+#size-xl {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 36%;
+    left: 40%;
+    border: 2px solid black;
+    height: 24px;
+    width: 24px;
+    font-weight: 700;
+    border-radius: 100%;
+    text-align: center;
+
+}
+
+#verticle-line-1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 50px;
+    width: 2px;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+#verticle-line-2 {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    height: 50px;
+    width: 2px;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+#since {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 70%;
+    left: 24%;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#right-mid {
+    position: absolute;
+    top: 40%;
+    right: 15%;
+    height: 200px;
+    width: 300px;
+}
+
+#find-out-line-1 {
+    position: absolute;
+    height: 0.5%;
+    width: 50%;
+    top: 75%;
+    left: 15%;
+    background: linear-gradient(to right, black, white);
+}
+
+#find-out-line-2 {
+    position: absolute;
+    height: 60%;
+    width: 0.75%;
+    top: 15%;
+    left: 15%;
+    background: linear-gradient(to top, black, white);
+}
+
+#mini-circle-2 {
+    position: absolute;
+    top: 10%;
+    left: 14.5%;
+    height: 6px;
+    width: 6px;
+    border-radius: 100%;
+    background-color: black;
+}
+
+#find-out-para {
+    position: absolute;
+    top: 7%;
+    right: 24%;
+    height: 100%;
+    width: 60%;
+    font-size: 16px;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+#warn-icon{
+    position: absolute;
+    font-size: 24px;
+    top: 70%;
+    right: 20%;
+}
+
+#main-title{
+    position: absolute;
+    top: 2%;
+    left: 38%;
+    font-size: 48px;
+    font-family: "Anurati";
+    letter-spacing: 4px;
+}
