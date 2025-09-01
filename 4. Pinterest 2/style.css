@@ -1,0 +1,457 @@
+@font-face {
+    font-family: 'Super Malibu';
+    src: url('./fonts/Super Malibu.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Garden Flower';
+    src: url('./fonts/Garden Flower.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    position: relative;
+    height: 700%;
+    width: 100%;
+}
+
+#section-1 {
+    position: absolute;
+    padding: 1% 1%;
+    top: 0;
+    height: 15%;
+    width: 100%;
+    background-color: white;
+}
+
+#section-2 {
+    position: absolute;
+    top: 15%;
+    height: 15%;
+    width: 100%;
+}
+
+#section-3 {
+    position: absolute;
+    top: 30%;
+    height: 15%;
+    width: 100%;
+    background-color: blue;
+}
+
+#section-4 {
+    position: absolute;
+    top: 45%;
+    height: 15%;
+    width: 100%;
+    background-color: green;
+}
+
+#section-5 {
+    position: absolute;
+    top: 60%;
+    height: 15%;
+    width: 100%;
+    background-color: blue;
+}
+
+#section-6 {
+    position: absolute;
+    top: 75%;
+    height: 15%;
+    width: 100%;
+    background-color: green;
+}
+
+#section-7 {
+    position: absolute;
+    top: 90%;
+    height: 10%;
+    width: 100%;
+    background-color: blue;
+}
+
+#hero-img {
+    position: absolute;
+    height: 96%;
+    width: 98%;
+    background-image: url('./assets/img1.avif');
+    background-size: cover;
+    background-position: center;
+    border-radius: 2rem;
+}
+
+#shop-tropical-plant {
+    position: absolute;
+    bottom: 2%;
+    right: 1%;
+    height: 15%;
+    width: 25%;
+    background-color: #dadada;
+    border-radius: 2rem 0 2rem 0;
+}
+
+#hero-img-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 2rem;
+}
+
+#stp-border {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    height: 80%;
+    width: 95%;
+    border: 0.1rem solid black;
+    border-radius: 4rem;
+}
+
+#stp-text {
+    position: absolute;
+    top: 50%;
+    left: 62.5%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+#hero-text {
+    user-select: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20rem;
+    font-weight: bolder;
+    letter-spacing: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    z-index: 2;
+}
+
+#hero-text-top {
+    position: absolute;
+    top: 32%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    z-index: 2;
+}
+
+#hero-description {
+    position: absolute;
+    top: 75%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    font-size: 1.25rem;
+    width: 60%;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    z-index: 2;
+}
+
+#navbar {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 8%;
+    width: 96%;
+    border: 2px solid white;
+    border-radius: 2rem;
+    z-index: 10;
+}
+
+#navbar-left-menu {
+    position: absolute;
+    left: 5%;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+#navbar-left-menu-item-1 {
+    position: relative;
+    background-color: white;
+    height: 80%;
+    width: 20%;
+    border: 2px solid white;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#navbar-left-menu-item-2 {
+    position: relative;
+    height: 80%;
+    width: 20%;
+    border: 2px solid white;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#navbar-left-menu-item-2:hover {
+    background-color: white;
+}
+
+#navbar-left-menu-item-2:hover #navbar-about-text {
+    color: black;
+}
+
+#navbar-left-menu-item-3 {
+    position: relative;
+    height: 80%;
+    width: 20%;
+    border: 2px solid white;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#navbar-left-menu-item-3:hover {
+    background-color: white;
+}
+
+#navbar-left-menu-item-3:hover #navbar-contact-text {
+    color: black;
+}
+
+#navbar-home-text {
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+#navbar-about-text {
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+#navbar-contact-text {
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+#navbar-right-menu {
+    position: absolute;
+    right: 5%;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+#navbar-right-menu-item-1 {
+    position: relative;
+    height: 80%;
+    width: 20%;
+    border: 2px solid white;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#navbar-right-menu-item-1:hover {
+    background-color: white;
+}
+
+#navbar-right-menu-item-1:hover #navbar-shop-text {
+    color: black;
+}
+
+#navbar-right-menu-item-2 {
+    position: relative;
+    height: 80%;
+    width: 20%;
+    border: 2px solid white;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#navbar-right-menu-item-2:hover {
+    background-color: white;
+}
+
+#navbar-right-menu-item-2:hover #navbar-login-text {
+    color: black;
+}
+
+#navbar-shop-text {
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+#navbar-shop-text:hover {
+    color: #f0f0f0;
+}
+
+#navbar-login-text {
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+#navbar-login-text:hover {
+    color: #f0f0f0;
+}
+
+.ri-search-line {
+    height: 3rem;
+    width: 3rem;
+    border: 2px solid white;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.ri-search-line:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+}
+
+
+#s2-upper-div {
+    position: relative;
+    height: 50%;
+    width: 100%;
+}
+
+#s2u-upper-div {
+    position: absolute;
+    top: 0%;
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+
+#s2u-lower-div {
+    position: absolute;
+    top: 50%;
+    height: 50%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+
+#s2-lower-div {
+    position: relative;
+    height: 50%;
+    width: 100%;
+    background-color: gray;
+}
+
+
+#s2uu-left {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25rem 1.25rem 1.25rem 2rem;
+    height: 100%;
+    width: 50%;
+}
+
+#s2uu-right {
+    height: 100%;
+    width: 50%;
+    background-color: green;
+}
+
+#s2uul-text {
+    width: 50%;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+#s2uul-description{
+    position: absolute;
+    top: 75%;
+    width: 25%;
+    font-size: 0.75rem;
+    font-weight: 100;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+
+#s2uul-image {
+    position: relative;
+    right: 5%;
+    width: 30%;
+    height: 80%;
+    border-radius: 2rem;
+    background-image: url("./assets/img4.avif");
+    background-color: green;
+}
+
+#s2uuli-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    background-color: rgba(44, 66, 10, 0.371)
+}
