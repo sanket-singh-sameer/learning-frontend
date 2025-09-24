@@ -1,0 +1,149 @@
+# Sanket Singh Sameer - B.Tech Student & Full Stack Developer
+
+## Contact Information
+- **Email:** sanketsingshameer@proton.me
+- **Phone:** +91 7079854410
+- **Location:** Himachal Pradesh, India
+- **LinkedIn:** linkedin.com/in/sanket-singh-sameer
+- **GitHub:** github.com/sanket-singh-sameer
+- **Portfolio:** sanket-portfolio.dev
+
+## Professional Summary
+Passionate B.Tech student in Mathematics & Computing at NIT Hamirpur with strong expertise in full-stack web development. Experienced in creating responsive web applications using modern technologies like React, Node.js, and MongoDB. Strong problem-solving skills with a 98.8 percentile in JEE Mains 2024 and commitment to writing clean, maintainable code.
+
+## Technical Skills
+
+### Frontend Technologies
+- HTML5, CSS3, JavaScript (ES6+)
+- ReactJS, NextJS
+- Responsive Design, CSS Grid, Flexbox
+- Bootstrap, Tailwind CSS
+- Modern web development practices
+
+### Backend Technologies
+- Node.js, Express.js
+- RESTful APIs
+- JWT Authentication
+- Bcrypt password hashing
+- MVC architecture
+
+### Databases
+- MongoDB
+- MySQL
+- Database design and optimization
+- Mongoose ODM
+
+### Programming Languages
+- C, C++
+- JavaScript, TypeScript
+- Python
+- Data Structures and Algorithms
+
+### Tools & Development
+- VS Code
+- Git, GitHub
+- Postman
+- Render (deployment)
+- NPM package management
+
+## Experience & Activities
+
+### Member - Computer Science Engineering Society (CSEC)
+**NIT Hamirpur** | *Aug 2024 - Present*
+
+- Society focused on enhancing computer science student engagement and skills
+- Organized a 48-hour hackathon with 150+ participants, managing registrations, scheduling, and team support
+- Delivered an introductory Blockchain workshop to 250+ first-year students, simplifying concepts like decentralization and cryptography
+
+**Key Contributions:**
+- Enhanced student engagement through technical workshops and events
+- Developed organizational and leadership skills through event management
+- Promoted blockchain technology awareness among peers
+
+## Projects
+
+### Sam Rooms
+**Live Demo:** https://samrooms.onrender.com/listings
+**GitHub:** github.com/sanket-singh-sameer
+
+Airbnb-Inspired Full-Stack Web App with comprehensive listing and review management system.
+
+**Technologies:** Node.js, Express, MongoDB, EJS, MVC Architecture
+**Features:**
+- Developed listing and review management system using Node.js, Express, MongoDB, and EJS with MVC architecture
+- Integrated Cloudinary for image storage and deployed on Render
+- Enhanced user experience with authentication, search, and CRUD functionality
+- Impact: Streamlined hostel operations for 500+ students, replacing manual processes
+
+### Himadri: The All-in-One Platform
+**Live Demo:** https://nith.org.in/
+**GitHub:** github.com/sanket-singh-sameer
+
+Full-Stack MERN Hostel Management System with real-time updates and comprehensive modules.
+
+**Technologies:** React, Node.js, MongoDB, Express, Real-time Updates
+**Features:**
+- Built complaint management, student information, mess menu, and notice board modules with real-time updates
+- Implemented JWT authentication, email verification, password hashing, and protected API routes
+- Impact: Streamlined hostel operations for 500+ students, replacing manual processes
+
+### AIO AUTH NOSQL
+**NPM Package:** https://www.npmjs.com/package/aio-auth-nosql
+**GitHub:** github.com/sanket-singh-sameer
+
+Simple Node.js authentication library with MongoDB integration.
+
+**Technologies:** Node.js, MongoDB, JWT, Bcrypt
+**Features:**
+- Complete Node.js authentication with MongoDB, JWT, and bcrypt
+- JWT-based session management with cookie support, enabling seamless integration with Express.js routes
+- Provides secure access control with easy user registration and login functionality
+- Published as NPM package for community use
+
+## Education
+
+### Bachelor of Technology in Mathematics & Computing
+**National Institute of Technology, Hamirpur** | *Himachal Pradesh, India* | *2024 - 2028*
+
+**Relevant Coursework:**
+- Data Structures and Algorithms
+- Mathematics and Statistical Computing
+- Computer Programming (C, C++)
+- Web Development
+- Database Systems
+- Software Engineering Principles
+
+**Academic Achievement:**
+- JEE Mains 2024: 98.8 percentile (secured among ~1.5 million candidates)
+- JEE Advanced 2024: Qualified while consistently ranking among top academic performers
+
+### Higher Secondary Education (PCM Class XII)
+**St. Joseph's Senior Secondary School, Muzaffarpur** | *May 2022 - Apr 2024*
+
+### Secondary Education (Class X)  
+**St. Xavier's Jr/Sr Secondary School, Muzaffarpur** | *Apr 2022*
+
+## Achievements
+
+### JEE Examinations Achievements
+**2024**
+
+- Secured 98.8 percentile in JEE Mains 2024 among ~1.5 million candidates and qualified JEE Advanced 2024 
+- Consistently ranking among top academic performers throughout preparation period
+
+## Languages
+
+- **English:** Native
+- **Spanish:** Conversational
+- **French:** Basic
+
+## Interests & Activities
+
+- **Open Source Contributor:** Active contributor to several React and Node.js projects
+- **Tech Blogger:** Write articles about web development trends and best practices
+- **Volunteer Work:** Teach coding to underprivileged youth at local community centers
+- **Hobbies:** Photography, hiking, playing guitar, reading tech books
+
+---
+
+*References available upon request*

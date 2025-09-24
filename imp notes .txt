@@ -1,0 +1,19 @@
+
+// to centre any div
+#div{
+    position: absolute;
+    top:50%;
+    left:50;
+    transform: translate(-50%, -50%);
+}
+
+// to add content to any child
+#rtop a:nth-child(2)::before{
+    content:"-";
+}
+
+// to make the contentnon selectable
+#h1{
+    user-selected: none;
+    white-space: नोव्राप;
+}

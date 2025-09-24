@@ -1,0 +1,126 @@
+@font-face {
+    font-family: "Talking";
+    src: url(./fonts/Talking.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    z-index: -2;
+    position: relative;
+    height: 100%;
+    background-color: #dadada;
+}
+
+
+#main-text {
+    z-index: 0;
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    font-size: 30rem;
+    letter-spacing: 0rem;
+    font-family: "Talking", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    color: #000000;
+}
+
+#main-robo-img {
+    z-index: 1;
+    position: absolute;
+    top: 65%;
+    left: 85%;
+    height: 100%;
+    width: 30%;
+    transform: translate(-50%, -50%);
+    background-image: url(./assets/main-robo.png);
+    background-size: cover;
+
+}
+
+#navbar {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 10%;
+    width: 100%;
+    padding: 1rem;
+    font-family: "Oswald", sans-serif;
+}
+
+#navbar-elem {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+#navbar-left {
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#request-a-demo {
+    text-decoration: none;
+    font-size: 0.75rem;
+    color: black;
+    letter-spacing: 0.1rem;
+    padding: 0.75rem 2rem 1rem 2rem;
+    border-radius: 2rem;
+    font-weight: 500;
+    background-color: rgb(170, 170, 170);
+
+}
+
+#build-with-us {
+    text-decoration: none;
+    font-size: 0.75rem;
+    color: white;
+    letter-spacing: 0.1rem;
+    padding: 0.75rem 2rem 1rem 2rem;
+    border-radius: 2rem;
+    background-color: black;
+
+}
+
+#navbar-right {
+    position: relative;
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+#navbar-right i {
+    position: absolute;
+    right: -15%;
+    color: white;
+    height: 2rem;
+    width: 2rem;
+    font-size: 1rem;
+
+    background-color: black;
+}
