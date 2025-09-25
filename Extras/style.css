@@ -1,0 +1,112 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+
+#main {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    /* background-color: blue; */
+}
+
+h1 {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    /* background-color: red; */
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1::before {
+    content: "🙂";
+}
+
+h1::after {
+    content: "✨";
+}
+
+#box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50%;
+    width: 50%;
+    font-size: 2rem;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: red;
+}
+
+#box::before{
+    content: "(Content Pehle)";
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+#box::after{
+    content: "(Content Baadme)";
+}
+
+
+#box-anim{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    /* transform: translate(-50%, -50%); */
+    height: 25%;
+    width: 10%;
+    background-color: green;
+    animation-name: animation-ka-naam;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+
+@keyframes animation-ka-naam {
+    0%{
+        left: 0%;
+        top: 0%;
+        background-color: green;
+    }
+    35%{
+        left: 90%;
+        top: 0%;
+        background-color: red;
+    }
+    50%{
+        left: 90%;
+        top: 75%;
+        background-color: green;
+    }
+    85%{
+        left: 0%;
+        top: 75%;
+        background-color: red;
+    }
+    100%{
+        left: 0%;
+        top: 0%;
+        background-color: green;
+    }
+}
